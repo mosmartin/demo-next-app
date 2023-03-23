@@ -43,6 +43,7 @@ export default function Home() {
         <div className={styles.thirteen}>
           <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
         </div>
+        <span className={styles.thirteen}> 😎 </span>
       </div>
 
       <div className={styles.grid}>
@@ -69,7 +70,7 @@ export default function Home() {
           <h2 className={inter.className}>
             Templates <span>-&gt;</span>
           </h2>
-          <p className={inter.className}>Explore the Next.js 13 playground. 😎</p>
+          <p className={inter.className}>Explore the Next.js 13 playground.</p>
         </a>
 
         <a
